@@ -3,7 +3,7 @@
 Convert a Node.js-style callback API `(err, val) => void` to a Promise that resolves to a `[err, val]` array.
 
 ```
-npm install --save-dev promisify-tuple
+npm install --save promisify-tuple
 ```
 
 **Before:**
