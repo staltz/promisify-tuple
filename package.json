@@ -1,0 +1,28 @@
+{
+  "name": "promisify-tuple",
+  "version": "1.0.0",
+  "description": "Promisify a callback-style function, always resolve with [err,val]",
+  "repository": "https://github.com/staltz/promisify-tuple",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "typings": "index.d.ts",
+  "author": "Andre Staltz <contact@staltz.com>",
+  "license": "MIT",
+  "keywords": [
+    "chain",
+    "pipe",
+    "functions",
+    "functional",
+    "compose"
+  ],
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "devDependencies": {
+    "typescript": "3.0.x",
+    "tape": "4.9.1"
+  }
+}
