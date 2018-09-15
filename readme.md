@@ -21,7 +21,7 @@ function main() {
 main()
 ```
 
-**Before:**
+**After:**
 
 ```js
 const fs = require('fs')
