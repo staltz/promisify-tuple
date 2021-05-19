@@ -1,6 +1,6 @@
 {
   "name": "promisify-tuple",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Promisify a callback-style function, always resolve with [err,val]",
   "repository": "https://github.com/staltz/promisify-tuple",
   "main": "index.js",
