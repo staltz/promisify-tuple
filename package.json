@@ -19,10 +19,11 @@
     "node": ">=6"
   },
   "scripts": {
-    "test": "tape test.js"
+    "test": "tape test.js | tap-spec"
   },
   "devDependencies": {
-    "typescript": "3.0.x",
-    "tape": "4.9.1"
+    "tap-spec": "^5.0.0",
+    "tape": "4.9.1",
+    "typescript": "3.0.x"
   }
 }
